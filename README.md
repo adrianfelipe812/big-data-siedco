@@ -12,7 +12,7 @@ Laboratorios del curso *Big Data* — Maestría en Ciencia de Datos, Universidad
 | 2 | [`lab2-api-coingecko`](lab2-api-coingecko) | Pipeline de adquisición desde la API de CoinGecko: capa RAW (JSON), CSV vs. Parquet, tabla Delta en Unity Catalog y operaciones ACID (INSERT, UPDATE, DELETE, MERGE, *time travel*) | requests, pandas, PySpark, Delta Lake |
 | 3 | [`lab3-siedco-lakehouse`](lab3-siedco-lakehouse) | Arquitectura medallion y clasificación de meses con alta variación delictiva por localidad y tipo de hecho | Databricks, Spark, Spark ML |
 
-Cada laboratorio 1 y 2 incluye el notebook en formato `.ipynb` (extraído del export de Databricks, sin salidas) y el export `.html` original con resultados.
+Cada laboratorio incluye el notebook `.ipynb` exportado de Databricks con sus resultados; los laboratorios 1 y 2 conservan además el export `.html`.
 
 ## Laboratorio 3 — SIEDCO: de una base administrativa a una señal predictiva
 
@@ -35,7 +35,7 @@ Cada laboratorio 1 y 2 incluye el notebook en formato `.ipynb` (extraído del ex
 
 El *baseline* de clase mayoritaria logra 71 % de accuracy con 0 % de recall, por eso se reportan varias métricas. La señal es moderada; los conteos administrativos reflejan dinámicas de denuncia y registro, y la importancia de variables no implica causalidad.
 
-Material: presentación del laboratorio y [propuesta de solución](docs/propuesta_solucion_nube.pdf). Video: https://youtu.be/tU7MgHjgajs
+Material: [notebook](lab3-siedco-lakehouse/laboratorio3_siedco_lakehouse.ipynb), presentación del laboratorio y [propuesta de solución](docs/propuesta_solucion_nube.pdf). Video: https://youtu.be/tU7MgHjgajs
 
 ## Ejecución
 
