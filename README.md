@@ -40,3 +40,7 @@ Material: [notebook](lab3-siedco-lakehouse/laboratorio3_siedco_lakehouse.ipynb),
 ## Ejecución
 
 Los notebooks se diseñaron para Databricks (Free Edition / Unity Catalog). Usan `spark`, `display` y `dbutils`, disponibles en ese entorno. El laboratorio 2 requiere acceso a Internet para consultar la API pública de CoinGecko.
+
+## Licencia
+
+El contenido de este repositorio (código, documentos y figuras propias) se publica bajo la licencia [Creative Commons Atribución 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.es): puede compartirse y adaptarse citando a los autores. Ver [`LICENSE`](LICENSE). Los datos de SIEDCO y CoinGecko pertenecen a sus respectivas fuentes.
